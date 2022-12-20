@@ -1,0 +1,80 @@
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.calculator-card{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    margin-top: 50px;
+    background: rgb(38, 37, 43);
+}
+
+.calculator-display{
+    border-radius: 10px;
+    height: 120px;
+    background: rgb(0, 0, 0);
+    z-index: 1;
+    position: relative;
+
+    vertical-align: middle;
+
+}
+
+.calculator-results{
+    z-index: 2;
+    position: relative;
+}
+
+#result{
+    color: white;
+    font-family: 'consolas';
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.calculator-body{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 15px;
+    padding-bottom: 18px;
+    z-index: 0;
+    position: relative;
+}
+
+
+table{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.operation-control, 
+.number-control, 
+.result-control, 
+.clear-control{
+    border-radius: 5px;
+    border-width: 0;
+    margin: 3px;
+    width: 45px;
+    height: 40px;
+    font-weight: 790;
+    font-size: 16px;
+}
+
+.operation-control{
+    background: rgb(255, 156, 69);
+    color: white;
+}
+
+.result-control{
+    background: rgb(42, 118, 38);
+}
+
+.clear-control{
+    background: red;
+}
