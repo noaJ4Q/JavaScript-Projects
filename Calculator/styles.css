@@ -19,8 +19,9 @@ body{
     z-index: 1;
     position: relative;
 
-    vertical-align: middle;
-
+    align-items: center;
+    justify-content: end;
+    display: flex;
 }
 
 .calculator-results{
@@ -33,6 +34,7 @@ body{
     font-family: 'consolas';
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-right: 10px;
 }
 
 .calculator-body{
@@ -43,7 +45,6 @@ body{
     z-index: 0;
     position: relative;
 }
-
 
 table{
     height: 100%;
@@ -64,6 +65,8 @@ table{
     height: 40px;
     font-weight: 790;
     font-size: 16px;
+
+    cursor:pointer;
 }
 
 .operation-control{
