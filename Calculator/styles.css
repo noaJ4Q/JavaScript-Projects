@@ -1,0 +1,82 @@
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+
+    background: rgb(240, 240, 240);
+
+}
+
+.cal-body{
+
+    position: relative;
+    z-index: -1;
+
+    border-radius: 8px;
+
+    background: rgb(50, 50, 50);
+}
+
+.cal-screen{
+
+    padding: 25px 10px;
+    position: relative;
+
+    border-radius: 8px;
+
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+}
+
+.cal-controls{
+
+    padding: 12px 8px 15px 8px;
+
+}
+
+#result{
+
+    display: flex;
+    justify-content: end;
+
+    margin: 0px;
+
+    font-family: "JetBrains mono";
+
+}
+
+.control{
+    
+    padding: 8px 15px;
+    margin: 2px;
+
+    font-family: "JetBrains Mono";
+    font-weight: 800;
+    border-width: 0px;
+    border-radius: 2px;
+
+}
+
+.operation{
+
+    background: rgb(255, 161, 68);
+    color: rgb(255, 255, 255);
+
+}
+
+#equal{
+
+    background: rgb(0, 137, 0);
+    color: rgb(255, 255, 255);
+
+}
+
+#clear{
+
+    background: rgb(255, 0, 0);
+
+}
