@@ -17,12 +17,13 @@ body{
 
     border-radius: 8px;
 
-    background: rgb(50, 50, 50);
+    background: rgb(42, 42, 49);
+    
 }
 
 .cal-screen{
 
-    padding: 25px 10px;
+    padding: 40px 10px;
     position: relative;
 
     border-radius: 8px;
@@ -34,7 +35,7 @@ body{
 
 .cal-controls{
 
-    padding: 12px 8px 15px 8px;
+    padding: 18px 10px;
 
 }
 
@@ -45,19 +46,23 @@ body{
 
     margin: 0px;
 
+    font-size: 40px;
     font-family: "JetBrains mono";
 
 }
 
 .control{
     
-    padding: 8px 15px;
-    margin: 2px;
+    padding: 10px 20px;
+    margin: 3px;
 
+    font-size: 20px;
     font-family: "JetBrains Mono";
-    font-weight: 800;
+    font-weight: 700;
     border-width: 0px;
-    border-radius: 2px;
+    border-radius: 4px;
+
+    cursor: pointer;
 
 }
 
