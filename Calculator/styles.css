@@ -34,24 +34,26 @@ body{
 
 }
 
+#result{
+
+    display: flex;
+    justify-content: end;
+
+    padding: 5px 0px;
+    margin: 0px;
+    height: 1em;
+
+    font-size: 40px;
+    font-family: "JetBrains mono";
+
+}
+
 .cal-controls{
 
     padding: 18px 10px;
 
 }
 
-
-#result{
-
-    display: flex;
-    justify-content: end;
-
-    margin: 0px;
-
-    font-size: 40px;
-    font-family: "JetBrains mono";
-
-}
 
 .control{
     
