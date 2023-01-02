@@ -1,7 +1,16 @@
-const controles = document.getElementsByClassName("control");
+const pantalla = document.getElementById("result");
+const controles = document.querySelectorAll("button");
 
-for (let i = 0; i < controles.length; i++){
-    controles[i].addEventListener("click", function(){
-        document.getElementById("result").innerHTML = controles[i].value;
-    })
-}
+controles.forEach(element => {
+    element.onclick = () => {
+        if (element.id == "clear"){
+            pantalla.innerText = "0";
+        }
+        else if (element.id == "equal" && pantalla.innerText != "0"){
+            pantalla.innerText = calcular(pantalla.innerText)
+        }
+        else{
+            pantalla.innerText += element.value;
+        }
+    }
+});
