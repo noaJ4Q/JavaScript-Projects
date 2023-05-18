@@ -1,2 +1,2 @@
 # JavaScript-Projects
-Popular JavaScript-Projects developed in my way
+Some JavaScript-Projects developed in my way ;D
